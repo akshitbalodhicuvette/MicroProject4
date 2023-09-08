@@ -38,6 +38,10 @@ body {
   padding: 5px 20px;
   box-shadow: 0px 4px 4px 0px #00000040;
   letter-spacing: 7px;
+  text-overflow: ellipsis;
+  direction: ltr;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 #keyboard {
